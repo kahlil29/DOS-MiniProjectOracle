@@ -1,15 +1,32 @@
 Rails.application.routes.draw do
+  # get 'display/index'
+
+
+  # controller :display do
+  #   post 'Submit' => :query_year
+  #
+  # end
+
+  get 'display/index'
+  #get 'display/year'
+  post 'display/index' => "display#year"
+
+  resources :movietables
+  resources :staffs
+  resources :movies
   resources :theatres
   resources :movies
+  resources :display
+
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  # root 'welcome#index'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
-
+          #post "display" => "display#year"
   # Example of named route that can be invoked with purchase_url(id: product.id)
   #   get 'products/:id/purchase' => 'catalog#purchase', as: :purchase
 

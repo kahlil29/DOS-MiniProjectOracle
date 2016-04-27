@@ -11,9 +11,29 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160420012006) do
+ActiveRecord::Schema.define(version: 20160421140101) do
+
+# Could not dump table "htmldb_plan_table" because of following StandardError
+#   Unknown type 'LONG' for column 'other'
 
   create_table "movies", force: :cascade do |t|
+    t.string   "title"
+    t.text     "description"
+    t.datetime "created_at",  null: false
+    t.datetime "updated_at",  null: false
+  end
+
+  create_table "movietables", force: :cascade do |t|
+    t.string   "name"
+    t.integer  "year",       precision: 38
+    t.string   "actor1"
+    t.string   "actor2"
+    t.string   "actor3"
+    t.datetime "created_at",                null: false
+    t.datetime "updated_at",                null: false
+  end
+
+  create_table "staffs", force: :cascade do |t|
     t.string   "title"
     t.text     "description"
     t.datetime "created_at",  null: false
@@ -25,6 +45,18 @@ ActiveRecord::Schema.define(version: 20160420012006) do
     t.text     "description"
     t.datetime "created_at",  null: false
     t.datetime "updated_at",  null: false
+  end
+
+  create_table "tmp2", id: false, force: :cascade do |t|
+    t.integer  "id",          precision: 38, null: false
+    t.string   "title"
+    t.text     "description"
+    t.datetime "created_at",                 null: false
+    t.datetime "updated_at",                 null: false
+  end
+
+  create_table "tmp_hello", id: false, force: :cascade do |t|
+    t.string "title"
   end
 
 end

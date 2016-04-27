@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Id:</strong>
+  <%= @movietable.id %>
+</p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @movietable.name %>
+</p>
+
+<p>
+  <strong>Year:</strong>
+  <%= @movietable.year %>
+</p>
+
+<p>
+  <strong>Actor1:</strong>
+  <%= @movietable.actor1 %>
+</p>
+
+<p>
+  <strong>Actor2:</strong>
+  <%= @movietable.actor2 %>
+</p>
+
+<p>
+  <strong>Actor3:</strong>
+  <%= @movietable.actor3 %>
+</p>
+
+<%= link_to 'Edit', edit_movietable_path(@movietable) %> |
+<%= link_to 'Back', movietables_path %>

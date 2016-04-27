@@ -1,0 +1,37 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Movietables</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Id</th>
+      <th>Name</th>
+      <th>Year</th>
+      <th>Actor1</th>
+      <th>Actor2</th>
+      <th>Actor3</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @movietables.each do |movietable| %>
+      <tr>
+        <td><%= movietable.id %></td>
+        <td><%= movietable.name %></td>
+        <td><%= movietable.year %></td>
+        <td><%= movietable.actor1 %></td>
+        <td><%= movietable.actor2 %></td>
+        <td><%= movietable.actor3 %></td>
+        <td><%= link_to 'Show', movietable %></td>
+        <td><%= link_to 'Edit', edit_movietable_path(movietable) %></td>
+        <td><%= link_to 'Destroy', movietable, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Movietable', new_movietable_path %>

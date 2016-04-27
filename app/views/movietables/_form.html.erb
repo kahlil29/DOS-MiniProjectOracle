@@ -1,0 +1,41 @@
+<%= form_for(@movietable) do |f| %>
+  <% if @movietable.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@movietable.errors.count, "error") %> prohibited this movietable from being saved:</h2>
+
+      <ul>
+      <% @movietable.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :id %><br>
+    <%= f.number_field :id %>
+  </div>
+  <div class="field">
+    <%= f.label :name %><br>
+    <%= f.text_field :name %>
+  </div>
+  <div class="field">
+    <%= f.label :year %><br>
+    <%= f.number_field :year %>
+  </div>
+  <div class="field">
+    <%= f.label :actor1 %><br>
+    <%= f.text_field :actor1 %>
+  </div>
+  <div class="field">
+    <%= f.label :actor2 %><br>
+    <%= f.text_field :actor2 %>
+  </div>
+  <div class="field">
+    <%= f.label :actor3 %><br>
+    <%= f.text_field :actor3 %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

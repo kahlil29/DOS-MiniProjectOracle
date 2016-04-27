@@ -1,0 +1,144 @@
+
+
+***********************************************************************
+Fatal NI connect error 12560, connecting to:
+ (DESCRIPTION=(CONNECT_DATA=(SERVICE_NAME=xe)(CID=(PROGRAM=sqlplus)(HOST=kahlil-PC)(USER=kahlil)))(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.57)(PORT=1521)))
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 10.2.0.3.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 10.2.0.3.0 - Production
+  Time: 21-APR-2016 15:47:50
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12560
+    TNS-12560: Message 12560 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: Message 530 not found; No message file for product=network, facility=TNS
+
+
+***********************************************************************
+Fatal NI connect error 12560, connecting to:
+ (DESCRIPTION=(CONNECT_DATA=(SERVICE_NAME=xe)(CID=(PROGRAM=sqlplus)(HOST=kahlil-PC)(USER=kahlil)))(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.57)(PORT=1521)))
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 10.2.0.3.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 10.2.0.3.0 - Production
+  Time: 21-APR-2016 15:48:20
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12560
+    TNS-12560: Message 12560 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: Message 530 not found; No message file for product=network, facility=TNS
+
+
+***********************************************************************
+Fatal NI connect error 12560, connecting to:
+ (DESCRIPTION=(CONNECT_DATA=(SERVICE_NAME=xe)(CID=(PROGRAM=sqlplus)(HOST=kahlil-PC)(USER=kahlil)))(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.57)(PORT=1521)))
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 10.2.0.3.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 10.2.0.3.0 - Production
+  Time: 21-APR-2016 15:51:19
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12560
+    TNS-12560: Message 12560 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: Message 530 not found; No message file for product=network, facility=TNS
+
+
+***********************************************************************
+Fatal NI connect error 12560, connecting to:
+ (DESCRIPTION=(CONNECT_DATA=(SERVICE_NAME=xe)(CID=(PROGRAM=sqlplus)(HOST=kahlil-PC)(USER=kahlil)))(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.57)(PORT=1521)))
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 10.2.0.3.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 10.2.0.3.0 - Production
+  Time: 21-APR-2016 15:53:00
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12560
+    TNS-12560: Message 12560 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: Message 530 not found; No message file for product=network, facility=TNS
+
+
+***********************************************************************
+Fatal NI connect error 12543, connecting to:
+ (DESCRIPTION=(CONNECT_DATA=(SERVICE_NAME=xe)(CID=(PROGRAM=ruby@kahlil-PC)(HOST=kahlil-PC)(USER=kahlil)))(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.57)(PORT=1521)))
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 10.2.0.3.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 10.2.0.3.0 - Production
+  Time: 26-APR-2016 14:20:15
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12543
+    TNS-12543: Message 12543 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 513
+    TNS-00513: Message 513 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 101
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12543, connecting to:
+ (DESCRIPTION=(CONNECT_DATA=(SERVICE_NAME=xe)(CID=(PROGRAM=ruby)(HOST=kahlil-PC)(USER=kahlil)))(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.57)(PORT=1521)))
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 10.2.0.3.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 10.2.0.3.0 - Production
+  Time: 26-APR-2016 14:20:16
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12543
+    TNS-12543: Message 12543 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 513
+    TNS-00513: Message 513 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 101
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12543, connecting to:
+ (DESCRIPTION=(CONNECT_DATA=(SERVICE_NAME=xe)(CID=(PROGRAM=ruby)(HOST=kahlil-PC)(USER=kahlil)))(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.57)(PORT=1521)))
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 10.2.0.3.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 10.2.0.3.0 - Production
+  Time: 26-APR-2016 14:24:34
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12543
+    TNS-12543: Message 12543 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 513
+    TNS-00513: Message 513 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 101
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12543, connecting to:
+ (DESCRIPTION=(CONNECT_DATA=(SERVICE_NAME=xe)(CID=(PROGRAM=ruby)(HOST=kahlil-PC)(USER=kahlil)))(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.57)(PORT=1521)))
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 10.2.0.3.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 10.2.0.3.0 - Production
+  Time: 26-APR-2016 14:24:35
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12543
+    TNS-12543: Message 12543 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 513
+    TNS-00513: Message 513 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 101
+    nt OS err code: 0
