@@ -1,0 +1,8 @@
+<p> Names of Movies Actor has acted in: </p>
+
+
+<% len1 = @actor_based_movies.length %>
+<% for i in 0..len1-1 %>
+<%= @actor_based_movies[i].name %>
+</br>
+<% end %>

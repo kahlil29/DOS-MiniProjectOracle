@@ -8,6 +8,7 @@ Rails.application.routes.draw do
   # end
 
   get 'display/index'
+  get '/search' => "display#search"
   #get 'display/year'
   post 'display/index' => "display#year"
 

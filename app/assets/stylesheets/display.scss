@@ -5,3 +5,26 @@
 // *{
 //   back;
 // }
+
+@import "bootstrap";
+
+
+
+form input[type=text] {
+  width:150px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+// form input[type=text]:focus {
+//     width: 30%;
+// }
+
+form input[type=text]:hover {
+    width: 18%;
+}
+
+form label {
+  color:black;
+  padding-left: 25px;
+}

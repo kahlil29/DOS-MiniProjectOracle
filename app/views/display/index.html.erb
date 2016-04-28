@@ -1,9 +1,9 @@
 </br>
-<h1>Your Movie Database</h1>
+<h1>Search Your Movie Database</h1>
 
-<% @movietables.each do |movie| %>
+<!-- <% @movietables.each do |movie| %>
   <h3> <%= movie.name %> </h3>
-<% end %>
+<% end %> -->
 
 </br>
 </br>
@@ -21,7 +21,22 @@
 </form> -->
 
 <%= form_tag  do %>
+<div class = form-group>
+
   <label>Select a Year</label>
   <%= select_tag( 'year_chosen', options_for_select([['2013', 2013], ['2014', 2014], ['2015', 2015],['2016', 2016]])) %>
   <%= submit_tag("Submit") %>
+</div>
+<% end %>
+
+</br>
+</br>
+</br>
+
+<%= form_tag("/search", method: "get") do %>
+<div class = form-group >
+  <%= label_tag(:actor_search, "Enter Actor/Actress name: ") %>
+  <%= text_field_tag(:actor_search) %>
+  <%= submit_tag("Search") %>
+</div>
 <% end %>

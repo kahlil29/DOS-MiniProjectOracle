@@ -12,4 +12,14 @@
  *
  *= require_tree .
  *= require_self
+ *=rails_bootstrap_forms
  */
+ @import "rails_bootstrap_forms";
+ @import "bootstrap-sprockets";
+ @import "bootstrap";
+
+
+.imdb {
+  width:100%;
+  height:250px;
+}
