@@ -4,7 +4,7 @@ class MovietablesController < ApplicationController
   # GET /movietables
   # GET /movietables.json
   def index
-    @movietables = Movietable.all
+    @movietables = Movietable.order(:ID)
   end
 
   # GET /movietables/1
